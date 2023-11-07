@@ -1,0 +1,16 @@
+{
+  "name": "demo_cypress",
+  "version": "1.0.0",
+  "description": "Proyecto de pruebas practica cypress",
+  "main": "index.js",
+  "scripts": {
+    "test-edge": "cypress run --spec cypress/e2e/smoketestbank.cy.js --browser edge",
+    "test1": ""
+
+  },
+  "author": "Dave Sánchez",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.3.0"
+  }
+}
